@@ -1,0 +1,9 @@
+﻿kind,mode,metric,comparison,baseline,n,difference,p_two_sided,star
+node,static,R_rob,CMLC,CMLC,50,-0.11839458445222824,1.9077969426462005e-08,True
+node,static,R_rob,best,CMLC,50,-0.11839458445222824,1.9077969426462005e-08,True
+node,adaptive,R_rob,CMLC,CMLC,50,-0.08340519119386794,2.239985974483716e-12,True
+node,adaptive,R_rob,best,loop,50,-0.05932614206689608,1.5448975432263978e-11,True
+edge,static,R_rob,CMLC,CMLC,50,-0.0768676799217057,8.881784197001252e-15,True
+edge,static,R_rob,best,u,50,-0.03548449557014195,1.4422642710343325e-05,True
+edge,adaptive,R_rob,CMLC,CMLC,50,-0.06114748364329956,5.329070518200751e-15,True
+edge,adaptive,R_rob,best,u,50,-0.027480360856076372,2.4721383162784605e-07,True

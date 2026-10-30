@@ -1,0 +1,7 @@
+﻿scale,method,candidate_evaluations,candidate_evaluations_ci95,candidate_evaluations_n,recovery_steps,recovery_steps_ci95,recovery_steps_n
+S1,SCFC,0.0,0.0,5,3.0,0.0,5
+S1,greedy,15.0,0.0,5,3.0,0.0,5
+S2,SCFC,0.0,0.0,5,6.0,0.0,5
+S2,greedy,57.0,0.0,5,6.0,0.0,5
+S3,SCFC,0.0,0.0,5,12.0,0.0,5
+S3,greedy,222.0,0.0,5,12.0,0.0,5

@@ -1,0 +1,26 @@
+﻿method,dimension,radar_value,definition,normalization
+degree,Rank agreement,0.023912125613280207,"max(mean scene Kendall tau at S2, 0)",none; direct metric value
+degree,Top-10 hit,0.174,mean scene Top-10 hit rate at S2,none; direct metric value
+degree,Low false positives,0.43199999999999994,1 - mean scene false-positive rate at S2,none; direct metric value
+degree,Task impact,0.08863736375330189,1 - mean Phi after jointly removing Top-5 nodes at S2,none; direct metric value
+degree,Scale stability,0.861809977497452,"1 - (max(tau_S1, tau_S2, tau_S3) - min(tau_S1, tau_S2, tau_S3)); tau is the scene mean within each scale",none; direct metric value
+betweenness,Rank agreement,0.07268175343088173,"max(mean scene Kendall tau at S2, 0)",none; direct metric value
+betweenness,Top-10 hit,0.20600000000000002,mean scene Top-10 hit rate at S2,none; direct metric value
+betweenness,Low false positives,0.5120000000000001,1 - mean scene false-positive rate at S2,none; direct metric value
+betweenness,Task impact,0.10317846422778842,1 - mean Phi after jointly removing Top-5 nodes at S2,none; direct metric value
+betweenness,Scale stability,0.9358230593661837,"1 - (max(tau_S1, tau_S2, tau_S3) - min(tau_S1, tau_S2, tau_S3)); tau is the scene mean within each scale",none; direct metric value
+loop,Rank agreement,0.026681592661745884,"max(mean scene Kendall tau at S2, 0)",none; direct metric value
+loop,Top-10 hit,0.25000000000000006,mean scene Top-10 hit rate at S2,none; direct metric value
+loop,Low false positives,0.548,1 - mean scene false-positive rate at S2,none; direct metric value
+loop,Task impact,0.19440073403514635,1 - mean Phi after jointly removing Top-5 nodes at S2,none; direct metric value
+loop,Scale stability,0.9025903403889466,"1 - (max(tau_S1, tau_S2, tau_S3) - min(tau_S1, tau_S2, tau_S3)); tau is the scene mean within each scale",none; direct metric value
+CMLC,Rank agreement,0.22437572251024868,"max(mean scene Kendall tau at S2, 0)",none; direct metric value
+CMLC,Top-10 hit,0.45799999999999996,mean scene Top-10 hit rate at S2,none; direct metric value
+CMLC,Low false positives,0.744,1 - mean scene false-positive rate at S2,none; direct metric value
+CMLC,Task impact,0.26304689747178245,1 - mean Phi after jointly removing Top-5 nodes at S2,none; direct metric value
+CMLC,Scale stability,0.9414907783829392,"1 - (max(tau_S1, tau_S2, tau_S3) - min(tau_S1, tau_S2, tau_S3)); tau is the scene mean within each scale",none; direct metric value
+SCFC,Rank agreement,0.7937044749990839,"max(mean scene Kendall tau at S2, 0)",none; direct metric value
+SCFC,Top-10 hit,0.7959999999999999,mean scene Top-10 hit rate at S2,none; direct metric value
+SCFC,Low false positives,1.0,1 - mean scene false-positive rate at S2,none; direct metric value
+SCFC,Task impact,0.44833280792211694,1 - mean Phi after jointly removing Top-5 nodes at S2,none; direct metric value
+SCFC,Scale stability,0.9679190075617318,"1 - (max(tau_S1, tau_S2, tau_S3) - min(tau_S1, tau_S2, tau_S3)); tau is the scene mean within each scale",none; direct metric value

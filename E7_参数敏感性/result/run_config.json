@@ -1,0 +1,175 @@
+{
+  "design": "v11",
+  "baseline": {
+    "n_s": 24,
+    "n_d": 12,
+    "n_i": 24,
+    "region_size": 100.0,
+    "communication_radius": 25,
+    "sensing_radius": 30,
+    "execution_radius": 20,
+    "task_count": 50,
+    "composite_requirement_count": 2,
+    "priority_weight": 10,
+    "max_hops": 12,
+    "seed": 20261026,
+    "search_count": 300,
+    "validation_search_count": 1000,
+    "attack_time": 5,
+    "recovery_start": 14,
+    "horizon": 120,
+    "recovery_target": 0.9
+  },
+  "SEED": 20261026,
+  "feasible_task_screening": true,
+  "truth_K": 1000,
+  "truth_replicates": 2,
+  "greedy_search_K": 300,
+  "random_repeats": 20,
+  "contract": {
+    "scale_instances": 20,
+    "base_scale_from": [
+      "E2",
+      "E4",
+      "E5"
+    ],
+    "sensitivity_instances": 10,
+    "K": [
+      50,
+      100,
+      200,
+      300,
+      500,
+      1000
+    ],
+    "alpha": [
+      0,
+      1,
+      2,
+      3,
+      5,
+      8
+    ],
+    "settings": [
+      [
+        "lambda",
+        "3"
+      ],
+      [
+        "lambda",
+        "5"
+      ],
+      [
+        "lambda",
+        "10"
+      ],
+      [
+        "lambda",
+        "15"
+      ],
+      [
+        "lambda",
+        "20"
+      ],
+      [
+        "sensing",
+        "27"
+      ],
+      [
+        "sensing",
+        "30"
+      ],
+      [
+        "sensing",
+        "33"
+      ],
+      [
+        "sensing",
+        "36"
+      ],
+      [
+        "sensing",
+        "39"
+      ],
+      [
+        "execution",
+        "14"
+      ],
+      [
+        "execution",
+        "16"
+      ],
+      [
+        "execution",
+        "18"
+      ],
+      [
+        "execution",
+        "20"
+      ],
+      [
+        "execution",
+        "22"
+      ],
+      [
+        "execution",
+        "24"
+      ],
+      [
+        "hops",
+        "8"
+      ],
+      [
+        "hops",
+        "10"
+      ],
+      [
+        "hops",
+        "12"
+      ],
+      [
+        "hops",
+        "16"
+      ],
+      [
+        "hops",
+        "20"
+      ],
+      [
+        "alpha_rc",
+        "21"
+      ],
+      [
+        "alpha_rc",
+        "23"
+      ],
+      [
+        "alpha_rc",
+        "25"
+      ],
+      [
+        "alpha_rc",
+        "27"
+      ],
+      [
+        "alpha_rc",
+        "29"
+      ]
+    ],
+    "K_cv": "10 independent searches within each fixed scene",
+    "truth_K": 1000,
+    "scale_truth_K": 500,
+    "K_random_pairing": "first21 hop inputs identical to E2; additional hops use independent extension",
+    "factorial_cohort": "E6 independent radius cohort first10 scenes; paired across radii"
+  },
+  "fingerprint": "f75931cc3b35776a",
+  "design_file_sha256": "f76901ee070425967e11d87672548d9cb73cbafd0b84f90a22276ce2d836a8a8",
+  "reproduction_config_sha256": "b32f72c7b20dab264a008149da4579652b273ce4c7e0bec36533f86f6637c052",
+  "config_schema_sha256": "4ac3df16d7ae37cc1fdc5d92e762f73e715f53d13a896ff66b57e30de554c081",
+  "source_model_sha256": "5cd5a640a36b2a621adfa619e596c7a3e375d00e69c5ccf53b7c1307cb4545fb",
+  "experiment_code_sha256": "85156ec9911973e42459da66c24ed4e9bf286522886c5024407afc284fde29d5",
+  "shared_code_sha256": "8bba13d49bfe6723adb3d3005858bcbfe30530eae0b5495ae53525551cc170f3",
+  "verified_physical_inputs": true,
+  "timing_experiment": false,
+  "plot_revision": "2026-10-27: STIX mathematical fonts at all plotting entrypoints; Fig6(c) positive CMLC log scale; Fig10 two Phi panels; two-team revision: Fig4 e1/e2 only, Fig10 h_ij and CMLC (ext.), f_V/f_E axes, Fig17 tau_b colorbar"
+}

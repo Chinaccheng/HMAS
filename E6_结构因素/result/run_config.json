@@ -1,0 +1,204 @@
+{
+  "design": "v11",
+  "baseline": {
+    "n_s": 24,
+    "n_d": 12,
+    "n_i": 24,
+    "region_size": 100.0,
+    "communication_radius": 25,
+    "sensing_radius": 30,
+    "execution_radius": 20,
+    "task_count": 50,
+    "composite_requirement_count": 2,
+    "priority_weight": 10,
+    "max_hops": 12,
+    "seed": 20261026,
+    "search_count": 300,
+    "validation_search_count": 1000,
+    "attack_time": 5,
+    "recovery_start": 14,
+    "horizon": 120,
+    "recovery_target": 0.9
+  },
+  "SEED": 20261026,
+  "feasible_task_screening": true,
+  "truth_K": 1000,
+  "truth_replicates": 2,
+  "greedy_search_K": 300,
+  "random_repeats": 20,
+  "contract": {
+    "radius_instances": 20,
+    "other_instances": 50,
+    "radius": [
+      21,
+      23,
+      25,
+      27,
+      29
+    ],
+    "radius_cohort_offset": 10000,
+    "roles_cohort_offset": 20000,
+    "role_grid": [
+      [
+        6,
+        6
+      ],
+      [
+        6,
+        12
+      ],
+      [
+        6,
+        18
+      ],
+      [
+        6,
+        24
+      ],
+      [
+        6,
+        30
+      ],
+      [
+        6,
+        36
+      ],
+      [
+        6,
+        42
+      ],
+      [
+        6,
+        48
+      ],
+      [
+        12,
+        6
+      ],
+      [
+        12,
+        12
+      ],
+      [
+        12,
+        18
+      ],
+      [
+        12,
+        24
+      ],
+      [
+        12,
+        30
+      ],
+      [
+        12,
+        36
+      ],
+      [
+        12,
+        42
+      ],
+      [
+        18,
+        6
+      ],
+      [
+        18,
+        12
+      ],
+      [
+        18,
+        18
+      ],
+      [
+        18,
+        24
+      ],
+      [
+        18,
+        30
+      ],
+      [
+        18,
+        36
+      ],
+      [
+        24,
+        6
+      ],
+      [
+        24,
+        12
+      ],
+      [
+        24,
+        18
+      ],
+      [
+        24,
+        24
+      ],
+      [
+        24,
+        30
+      ],
+      [
+        30,
+        6
+      ],
+      [
+        30,
+        12
+      ],
+      [
+        30,
+        18
+      ],
+      [
+        30,
+        24
+      ],
+      [
+        36,
+        6
+      ],
+      [
+        36,
+        12
+      ],
+      [
+        36,
+        18
+      ],
+      [
+        42,
+        6
+      ],
+      [
+        42,
+        12
+      ],
+      [
+        48,
+        6
+      ],
+      [
+        20,
+        20
+      ]
+    ],
+    "true_K": 1000,
+    "truth_batches": 2
+  },
+  "fingerprint": "0aaa05d04498dd26",
+  "reproduction_config_sha256": "b32f72c7b20dab264a008149da4579652b273ce4c7e0bec36533f86f6637c052",
+  "config_schema_sha256": "4ac3df16d7ae37cc1fdc5d92e762f73e715f53d13a896ff66b57e30de554c081",
+  "verified_physical_inputs": true,
+  "design_file_sha256": "f76901ee070425967e11d87672548d9cb73cbafd0b84f90a22276ce2d836a8a8",
+  "source_model_sha256": "5cd5a640a36b2a621adfa619e596c7a3e375d00e69c5ccf53b7c1307cb4545fb",
+  "experiment_code_sha256": "74a196f281befa4ba5fb71916dcae2dfddcc9c0abfd9cf2c9f2eb0ce84a6b9cc",
+  "shared_code_sha256": "8bba13d49bfe6723adb3d3005858bcbfe30530eae0b5495ae53525551cc170f3",
+  "role_grid_note": "65/1850 fixed networks non-generatable; valid sample sizes 25–50, explicitly recorded",
+  "plot_revision": "2026-10-27: STIX mathematical fonts at all plotting entrypoints; Fig6(c) positive CMLC log scale; Fig10 two Phi panels"
+}

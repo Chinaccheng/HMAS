@@ -1,0 +1,2 @@
+﻿zero_count,zero_count_ci95,zero_count_n,truth_zero_share,truth_zero_share_ci95,truth_zero_share_n,zero_CMLC_total,truth_zero_among_zero_CMLC,pooled_truth_zero_share,truth_rule
+4.82,0.8294439537588988,50,0.8915856818918044,0.05691800481263839,49,241,215,0.8921161825726142,"mean(truth_loss_1,truth_loss_2); abs < 1e-12"

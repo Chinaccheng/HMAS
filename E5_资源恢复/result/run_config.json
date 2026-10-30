@@ -1,0 +1,85 @@
+{
+  "design": "v11",
+  "baseline": {
+    "n_s": 24,
+    "n_d": 12,
+    "n_i": 24,
+    "region_size": 100.0,
+    "communication_radius": 25,
+    "sensing_radius": 30,
+    "execution_radius": 20,
+    "task_count": 50,
+    "composite_requirement_count": 2,
+    "priority_weight": 10,
+    "max_hops": 12,
+    "seed": 20261026,
+    "search_count": 300,
+    "validation_search_count": 1000,
+    "attack_time": 5,
+    "recovery_start": 14,
+    "horizon": 120,
+    "recovery_target": 0.9
+  },
+  "SEED": 20261026,
+  "feasible_task_screening": true,
+  "truth_K": 1000,
+  "truth_replicates": 2,
+  "greedy_search_K": 300,
+  "random_repeats": 20,
+  "contract": {
+    "instances": 50,
+    "main_attack": "SCFC",
+    "main_kinds": [
+      "node",
+      "edge",
+      "mixed"
+    ],
+    "levels": [
+      0.1,
+      0.2,
+      0.3
+    ],
+    "durations": [
+      3,
+      6,
+      9
+    ],
+    "hold_steps": 3,
+    "t_a": 5,
+    "T": 120,
+    "budget": 0.5,
+    "matrix_attacks": [
+      "random",
+      "area",
+      "degree",
+      "CMLC",
+      "SCFC"
+    ],
+    "matrix_scope": "medium node damage",
+    "recovery": [
+      "random",
+      "degree",
+      "betweenness",
+      "loop",
+      "CMLC",
+      "greedy",
+      "SCFC"
+    ],
+    "gain_K": 300,
+    "gain_draws": "independent batch; same candidates share random inputs",
+    "mixed_budget": "one common action budget; node and edge each cost1; blocked edges wait for nodes",
+    "marginal_simulation": "separate full recovery for medium SCFC node damage; identical 50% prefix",
+    "timing_experiment": false,
+    "greedy_interpretation": "one-step baseline; not an upper bound"
+  },
+  "fingerprint": "8139749e45816435",
+  "design_file_sha256": "f76901ee070425967e11d87672548d9cb73cbafd0b84f90a22276ce2d836a8a8",
+  "reproduction_config_sha256": "b32f72c7b20dab264a008149da4579652b273ce4c7e0bec36533f86f6637c052",
+  "config_schema_sha256": "4ac3df16d7ae37cc1fdc5d92e762f73e715f53d13a896ff66b57e30de554c081",
+  "source_model_sha256": "5cd5a640a36b2a621adfa619e596c7a3e375d00e69c5ccf53b7c1307cb4545fb",
+  "experiment_code_sha256": "e363cb4e9d3ac33a4e050356460c15b49c0f336d014030f23ed009b21ab76cf0",
+  "shared_code_sha256": "8bba13d49bfe6723adb3d3005858bcbfe30530eae0b5495ae53525551cc170f3",
+  "verified_physical_inputs": true,
+  "timing_experiment": false,
+  "plot_revision": "2026-10-27: STIX mathematical fonts at all plotting entrypoints; Fig6(c) positive CMLC log scale; Fig10 two Phi panels"
+}
